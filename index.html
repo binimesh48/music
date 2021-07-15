@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" class="chrisparton1991">
+<head>
+  <meta charset="UTF-8">
+  <title> wavesurfer.js loading bar</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="waveform" class="loading"></div>
+
+<div style="text-align: center">
+  <!-- <button class="btn btn-primary" id="play-pause">
+    <i class="glyphicon glyphicon-play"></i>
+    Play
+  </button> -->
+  <button onclick="wavesurfer.skipBackward()">
+    Backward
+  </button>
+  
+  <button onclick="wavesurfer.playPause()">
+    Play | Pause
+  </button>
+  
+  <button onclick="wavesurfer.skipForward()">
+    Forward
+  </button>
+  
+  <button onclick="wavesurfer.toggleMute()">
+    Toggle Mute
+  </button>
+</div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.1.11/wavesurfer.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

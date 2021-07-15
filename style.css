@@ -1,0 +1,5 @@
+.loading wave {
+	background-image: url(https://placeholdit.imgix.net/~text?txtsize=0&bg=cccccc&w=1&h=10);
+	background-repeat: repeat-x;
+	background-position: center;
+}
